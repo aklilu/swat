@@ -20,7 +20,7 @@ add_subdirectory(src)
 set(CPACK_GENERATOR "ZIP")
 
 set(CPACK_INSTALL_CMAKE_PROJECTS
-  "c:/workspace/swat/build/Release;swat;ALL;/"
-  "c:/workspace/swat/build/Debug;swat;ALL;/"
+  "~/swat/build/Release;swat;ALL;/"
+  "~/swat/build/Debug;swat;ALL;/"
   )
 include(CPack)
